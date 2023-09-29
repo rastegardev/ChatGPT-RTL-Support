@@ -1,0 +1,22 @@
+{
+  "version": "2.2.1",
+  "manifest_version": 3,
+  "name": "ChatGPT RTL Support",
+  "author": "reza rastegar",
+  "description": "Persian and Arabic language support 👅",
+  "icons": {
+    "16": "assets/img/logo.png",
+    "32": "assets/img/logo.png",
+    "48": "assets/img/logo.png",
+    "128": "assets/img/logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://chat.openai.com/*"],
+  "permissions": ["scripting", "storage"],
+  "action": {
+    "default_title": "ChatGPT RTL Support",
+    "default_popup": "popup.html"
+  }
+}

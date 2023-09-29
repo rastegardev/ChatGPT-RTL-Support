@@ -1,0 +1,172 @@
+/* Hide the default scrollbar in Webkit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Define custom fonts */
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-display: auto;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Black.woff2") format("woff2");
+  font-weight: bold;
+  font-display: auto;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Define color classes */
+.green {
+  color: #70A597;
+}
+
+.blue {
+  color: #047fff;
+}
+
+/* General body font */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Apply Roboto font to various elements */
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Styling for the main title */
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Styling for paragraphs */
+p {
+  font-size: 1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+/* Styling for the popup container */
+.popup {
+  overflow: hidden;
+  min-width: 330px;
+  min-height: max-content;
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #f5f5f5;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Styling for the toggle button */
+.button {
+  width: 4rem;
+  height: 2rem;
+  transition: 1s;
+  cursor: pointer;
+  margin-top: 35px;
+  position: relative;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  background-color: #fda3a3;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Styling for the halves of the toggle button */
+.half {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Styling for the circular indicator of the toggle button */
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #ff6c6c;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+/* Keyframes for transitioning background colors */
+@keyframes transformToBlue {
+  0% {
+    background-color: #fda3a3;
+  }
+  100% {
+    background-color: #bffddc;
+  }
+}
+
+@keyframes transformToYellow {
+  0% {
+    background-color: #bffddc;
+  }
+  100% {
+    background-color: #fda3a3;
+  }
+}
+
+/* Keyframes for animating the circular indicator to the right */
+@keyframes moveCircleRight {
+  0% {
+    left: 0;
+    transform: translateX(0);
+    background-color: #ff0000;
+  }
+  100% {
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: #76d4a2;
+  }
+}
+
+/* Keyframes for animating the circular indicator to the left */
+@keyframes moveCircleLeft {
+  0% {
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: #bffddc;
+  }
+  100% {
+    left: 0;
+    transform: translateX(0);
+    background-color: #ff0000;
+  }
+}
+
+/* Animation for the eye emoji */
+.eye {
+  transition: all 0.3s linear;
+}
+
+.image {
+  width: 100%;
+}
