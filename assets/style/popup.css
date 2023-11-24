@@ -23,7 +23,7 @@
 
 /* Define color classes */
 .green {
-  color: #70A597;
+  color: #70a597;
 }
 
 .blue {
@@ -55,10 +55,8 @@ h1 {
 
 /* Styling for paragraphs */
 p {
-  font-size: 1rem;
-  text-align: center;
+  font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 0;
 }
 
 /* Styling for the popup container */
@@ -160,11 +158,6 @@ p {
     transform: translateX(0);
     background-color: #ff0000;
   }
-}
-
-/* Animation for the eye emoji */
-.eye {
-  transition: all 0.3s linear;
 }
 
 .image {
