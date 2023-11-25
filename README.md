@@ -22,8 +22,6 @@ If you have any questions, concerns, or feedback about this Privacy Policy or th
 We appreciate your trust in using ChatGPT RTL Support and want to assure you that your privacy is our top priority. By using our extension, you agree to the practices outlined in this Privacy Policy.
 Thank you for choosing ChatGPT RTL Support! ❤️
 
-البته! الکترونیکی شدن خدمات ویژه درست وبسایت گوگل
-
 ## ✅ | سیاست حفظ حریم خصوصی
 از استفاده‌ی شما از افزونه کروم پشتیبانی از ChatGPT RTL استقبال می‌کنیم. این سیاست حفظ حریم خصوصی به منظور ارائه‌ی اطلاعات روشن و شفاف درباره چگونگی برخورد با داده‌های شما و حفاظت از حریم خصوصی‌تان در هنگام استفاده از افزونه ما طراحی شده است.
 1. جمع‌آوری و استفاده از داده
