@@ -6,7 +6,7 @@
 /* Define custom fonts */
 @font-face {
   font-family: "Roboto";
-  src: url("../assets/fonts/Roboto-Medium.woff2") format("woff2");
+  src: url("./assets/fonts/Roboto-Medium.woff2") format("woff2");
   font-style: normal;
   font-display: auto;
   font-weight: normal;
@@ -14,7 +14,7 @@
 }
 @font-face {
   font-family: "Roboto";
-  src: url("../assets/fonts/Roboto-Black.woff2") format("woff2");
+  src: url("./assets/fonts/Roboto-Black.woff2") format("woff2");
   font-weight: bold;
   font-display: auto;
   font-style: normal;
