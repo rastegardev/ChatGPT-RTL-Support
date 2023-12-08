@@ -1,6 +1,9 @@
 ChatGPT RTL Support extension
 ==============================
 
+![screencapture-chat-openai-c-0c23ff21-a969-4fb3-9d13-92d17f681ee9-2023-12-08-12_19_44](https://github.com/rastegardev/css-layout-hack-extension/assets/85369490/2618ce4a-1b66-469a-8306-54dfebc7b552)
+
+
 ## 🗂️ | Description
 EN:
 "Right-to-Left Language Support in ChatGPT" is a powerful extension for the Chrome browser that enhances the experience of using ChatGPT by supporting right-to-left languages like Arabic and Persian.
