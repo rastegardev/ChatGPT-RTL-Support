@@ -1,3 +1,30 @@
+// This code should execute when the popup of the extension is displayed
+document.addEventListener("DOMContentLoaded", function () {
+  // Function to check the website address
+  function checkURL(url) {
+    return /^https:\/\/chat\.openai\.com\/.*/.test(url);
+  }
+
+  // Requesting information about the current tab
+  chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+    const currentURL = tabs[0].url;
+
+    // If the website address doesn't match the pattern
+    if (!checkURL(currentURL)) {
+      // Display a message to the user
+      const message = document.createElement("p");
+      message.innerHTML =
+        '<p>The website address is not correct. This extension only works at <a href="https://chat.openai.com/" target="_blank">chat.openai.com</a></p>';
+
+      // Adding the message to the HTML tag with the class 'popup'
+      document.querySelector(".messageAlert").appendChild(message);
+
+      // Hide the popup
+      document.querySelector(".button").style.display = "none";
+    }
+  });
+});
+
 // Function to update the UI based on the button state
 const updateUI = (buttonOn) => {
   const eye = document.querySelector(".eye");

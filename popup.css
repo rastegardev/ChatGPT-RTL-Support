@@ -55,7 +55,6 @@ h1 {
 
 /* Styling for paragraphs */
 p {
-  font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -162,4 +161,22 @@ p {
 
 .image {
   width: 100%;
+}
+
+/* Styling for links in the footer */
+.links {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.links a {
+  color: #047fff;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: #f5f5f5;
 }
