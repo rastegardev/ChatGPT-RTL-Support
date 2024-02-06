@@ -2,7 +2,7 @@ addStyle = () => {
   let domStyle = document.createElement("style");
   domStyle.id = "custom-styles";
   domStyle.append(`
-    main { direction: rtl !important; }
+    main { direction: rtl !important; text-align: justify; }
     pre { direction: ltr !important; }
     .rtl { direction: rtl !important; }
     .ltr { direction: ltr !important; }
