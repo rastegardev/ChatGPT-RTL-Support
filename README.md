@@ -3,6 +3,8 @@ ChatGPT RTL Support extension
 
 ![screencapture-chat-openai-c-0c23ff21-a969-4fb3-9d13-92d17f681ee9-2023-12-08-12_19_44](https://github.com/rastegardev/css-layout-hack-extension/assets/85369490/2618ce4a-1b66-469a-8306-54dfebc7b552)
 
+## 🪲 | Change Log
+V1.4.5: Vazirmatn font has been added to openai.com
 
 ## 🗂️ | Description
 EN:
