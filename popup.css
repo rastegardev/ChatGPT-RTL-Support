@@ -38,6 +38,8 @@ h1 {
 /* Styling for paragraphs */
 p {
   font-family: Arial, Helvetica, sans-serif;
+  margin-right:5px;
+  text-align: justify;
 }
 
 /* Styling for the popup container */
