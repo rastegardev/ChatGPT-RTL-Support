@@ -1,9 +1,9 @@
 {
   "version": "1.4.5",
   "manifest_version": 3,
-  "name": "ChatGPT RTL Support",
+  "name": "ChatGPT RTL Support (Farsi/Arabic)",
   "author": "reza rastegar",
-  "description": "Persian and Arabic language support 👅",
+  "description": "RTL language 👅 support 👀 for ChatGPT 🤖",
   "icons": {
     "16": "assets/img/logo.png",
     "32": "assets/img/logo.png",
