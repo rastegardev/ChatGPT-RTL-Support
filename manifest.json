@@ -14,6 +14,12 @@
     "service_worker": "background.js"
   },
   "host_permissions": ["https://chat.openai.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ],
   "permissions": ["scripting", "storage"],
   "action": {
     "default_title": "ChatGPT RTL Support",

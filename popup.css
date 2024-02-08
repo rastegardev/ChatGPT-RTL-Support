@@ -3,24 +3,6 @@
   display: none;
 }
 
-/* Define custom fonts */
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-display: auto;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Black.woff2") format("woff2");
-  font-weight: bold;
-  font-display: auto;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-}
-
 /* Define color classes */
 .green {
   color: #70a597;
@@ -32,7 +14,7 @@
 
 /* General body font */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Apply Roboto font to various elements */

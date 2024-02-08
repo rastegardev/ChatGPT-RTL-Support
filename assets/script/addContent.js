@@ -2,12 +2,10 @@ addStyle = () => {
   let domStyle = document.createElement("style");
   domStyle.id = "custom-styles";
   domStyle.append(`
-   @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
-	* { font-family: 'VazirMatn', sans-serif !important; }
     main { direction: rtl !important; text-align: justify; }
     pre { direction: ltr !important; }
     .rtl { direction: rtl !important; }
-    .ltr { direction: ltr !important; }
+    .ltr { direction: ltr !important; text-align: left; }
   `);
   document.body.appendChild(domStyle);
 
