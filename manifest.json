@@ -10,6 +10,9 @@
     "48": "assets/img/logo.png",
     "128": "assets/img/logo.png"
   },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; style-src 'self' 'unsafe-inline' https://v1.fontapi.ir;"
+  },
   "background": {
     "service_worker": "background.js"
   },
