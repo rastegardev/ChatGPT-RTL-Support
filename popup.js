@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Function to check the website address
   function checkURL(url) {
-    return /^https:\/\/chat\.openai\.com\/.*/.test(url);
+    return /^https:\/\/chatgpt\.com\/.*/.test(url);
   }
 
   // Requesting information about the current tab
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Display a message to the user
       const message = document.createElement("p");
       message.innerHTML =
-        '<p>The website address is not correct. This extension only works at <a href="https://chat.openai.com/" target="_blank">chat.openai.com</a></p>';
+        '<p>The website address is not correct. This extension only works at <a href="https://chatgpt.com/" target="_blank">chat.openai.com</a></p>';
 
       // Adding the message to the HTML tag with the class 'popup'
       document.querySelector(".messageAlert").appendChild(message);

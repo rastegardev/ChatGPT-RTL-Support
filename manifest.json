@@ -16,10 +16,10 @@
   "background": {
     "service_worker": "background.js"
   },
-  "host_permissions": ["https://chat.openai.com/*"],
+  "host_permissions": ["https://chatgpt.com/*"],
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/*"],
+      "matches": ["https://chatgpt.com/*"],
       "js": ["content.js"]
     }
   ],
